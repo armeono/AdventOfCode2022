@@ -7,14 +7,6 @@ let secondHalf: any;
 
 let total: number = 0;
 
-//find letter that exists in both halves of string
-function findLetter() {
-    firstHalf.forEach((letter: string) => {
-        if (secondHalf.includes(letter)) {
-            addLetter(letter)
-        }
-    })
-}
 
 data.forEach((backpack: string, index: number) => {
 
