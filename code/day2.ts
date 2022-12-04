@@ -75,6 +75,8 @@ const points = [{
 }
 ]
 
+
+
 let totalPoints: number = 0;
 let outcomes: string[] = [];
 
